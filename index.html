@@ -13,12 +13,13 @@
         }
         .greetings {
             text-align: center;
-            font-size: 2em;
+            font-size: 3em; /* Ukuran font diperbesar */
         }
         .description {
             text-align: center;
-            margin: 20px;
-            font-size: 1.2em;
+            margin: 20px auto;
+            font-size: 1em;
+            max-width: 80%;
         }
         .button {
             text-align: center;
@@ -34,10 +35,11 @@
         /* Media query untuk perangkat dengan lebar layar maksimum 600px */
         @media (max-width: 600px) {
             .greetings {
-                font-size: 1.5em;
+                font-size: 2em; /* Ukuran font diperbesar */
             }
             .description {
-                font-size: 1em;
+                font-size: 0.9em;
+                max-width: 90%;
             }
             .button a {
                 padding: 8px 16px;
